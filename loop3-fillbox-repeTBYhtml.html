@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    #demo {
+      color: red;
+      font-size: 24px;
+    }
+  </style>
+
+  <body>
+    <p id="demo"></p>
+  </body>
+
+  <script>
+    //any value not limit diffr than loop3
+  var a = prompt("enter any number");
+  var b = 0;
+   var text = "";
+  for (b = 0; b <= a; b++) {
+   text += " hello " + b + " <br>";
+   document.getElementById("demo").innerHTML = text;
+
+   }
+
+   // document.write(b + ' hello world! <br> ')
+
+   
+  </script>
+</html>
